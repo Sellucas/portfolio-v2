@@ -9,8 +9,6 @@
     #42285c,
     #391b57
   );
-  margin-left: -50vw;
-  margin-right: -50vw;
   padding-left: 5vw;
   padding-right: 5vw;
 
@@ -31,7 +29,7 @@
   h1 {
     font-size: clamp(2rem, -0.8571rem + 14.2857vw, 12rem);
     font-weight: 700;
-    line-height: 90%;
+    line-height: 85%;
     text-shadow: 2px 2px 6px #391b57b3;
   }
   article {

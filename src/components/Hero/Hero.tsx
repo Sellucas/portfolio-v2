@@ -24,7 +24,9 @@ const Hero = () => {
               <BsGithub />
             </Link>
             <Link
-              href={"https://www.linkedin.com/in/lucas-sell-machado/"}
+              href={
+                "https://drive.google.com/file/d/1Tp4-8x5zKoP_WJQEfAmLdlb2y1l20_rG/view?usp=sharing"
+              }
               target="_blank"
             >
               <IoDocumentText />
