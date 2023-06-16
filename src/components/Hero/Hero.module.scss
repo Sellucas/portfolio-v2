@@ -42,7 +42,11 @@
 }
 
 .socials {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
   width: 100%;
+  gap: 2rem;
   margin-left: 30px;
 
   a {

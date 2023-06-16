@@ -2,7 +2,6 @@ import React from "react";
 import scss from "./Hero.module.scss";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { IoDocumentText } from "react-icons/io5";
-import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -13,25 +12,23 @@ const Hero = () => {
         </h3>
         <article>
           <h1>REACT</h1>
-          <div className={scss.socials}>
-            <Link
-              href={"https://www.linkedin.com/in/lucas-sell-machado/"}
-              target="_blank"
-            >
-              <BsLinkedin />
-            </Link>
-            <Link href={"https://github.com/Sellucas/"} target="_blank">
-              <BsGithub />
-            </Link>
-            <Link
-              href={
-                "https://drive.google.com/file/d/1Tp4-8x5zKoP_WJQEfAmLdlb2y1l20_rG/view?usp=sharing"
-              }
-              target="_blank"
-            >
-              <IoDocumentText />
-            </Link>
-          </div>
+          <ul className={scss.socials}>
+            <li>
+              <a href="/">
+                <BsLinkedin />
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <BsGithub />
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <IoDocumentText />
+              </a>
+            </li>
+          </ul>
         </article>
         <article>
           <h1>DEVELOPER</h1>
