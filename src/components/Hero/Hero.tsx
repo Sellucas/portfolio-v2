@@ -7,9 +7,11 @@ const Hero = () => {
   return (
     <section className={scss.section}>
       <div className={scss.container}>
-        <h3>
-          OI <span>👋</span> EU SOU O LUCAS
-        </h3>
+        <div className={scss.introduce}>
+          <h3>
+            OI <span>👋</span> EU SOU O LUCAS.
+          </h3>
+        </div>
         <article>
           <h1>REACT</h1>
           <ul className={scss.socials}>
