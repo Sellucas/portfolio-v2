@@ -1,8 +1,10 @@
 .section {
   width: 100vw;
-  min-height: 100vh;
+  max-height: 160vh;
   position: relative;
   background-color: #391b57;
+  border: none;
+  padding-bottom: 15rem;
 }
 
 .customShapeDivider {
@@ -60,7 +62,7 @@
 
 .stack {
   text-align: center;
-  width: 100%;
+  max-width: 65rem;
   height: 100%;
   margin-top: 8rem;
   font-size: 6rem;

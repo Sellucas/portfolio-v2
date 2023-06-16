@@ -50,7 +50,7 @@ const About = () => {
             autoFill
             gradient
             gradientColor={[57, 27, 87]}
-            gradientWidth={800}
+            gradientWidth={200}
           >
             <span>
               <SiReact />
