@@ -35,10 +35,10 @@
     line-height: 150%;
     text-align: center;
   }
-  button {
+  a {
     font-size: clamp(1rem, 0.9143rem + 0.4286vw, 1.3rem);
     padding: 1em 2em;
-    border-color: #5be9b9;
+    border: 1px solid #5be9b9;
     color: white;
     background-color: transparent;
     border-radius: 90px;

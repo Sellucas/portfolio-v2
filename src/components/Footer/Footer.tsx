@@ -14,12 +14,12 @@ const Footer = () => {
           Interessado em trabalhar juntos? <br />
           Seria ótimo conversarmos.
         </p>
-        <button>
+        <a href="/">
           <span>
             <BsRocketFill />
           </span>
           Vamos fazer isso
-        </button>
+        </a>
       </div>
       <div className={scss.container}>
         <h1>Em constante aprendizado. Um dia de cada vez.</h1>
