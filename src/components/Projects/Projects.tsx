@@ -4,6 +4,7 @@ import Marquee from "@/components/utils/TitleDivider";
 import { AiOutlineGithub } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
 import { Righteous } from "next/font/google";
+import Image from "next/image";
 
 const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 
@@ -35,7 +36,7 @@ const Projects: React.FC<ProjectProps> = ({ boxDataCard }) => {
           >
             <div className={scss.image}>
               <a href="/" target="_blank">
-                <img src={box.img} alt={box.alt} />
+                <Image width={550} height={450} src={box.img} alt={box.alt} />
               </a>
             </div>
             <div className={scss.info}>

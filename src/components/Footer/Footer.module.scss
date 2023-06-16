@@ -21,6 +21,12 @@
   border-radius: 20px;
   color: white;
 
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+  }
+
   h2 {
     font-size: clamp(1rem, 0.7714rem + 1.1429vw, 1.8rem);
   }
@@ -60,6 +66,10 @@
   align-items: center;
   color: white;
   margin-top: 6rem;
+
+  h1 {
+    text-align: center;
+  }
 }
 
 .socials {
