@@ -1,9 +1,11 @@
+"use client";
 import React from "react";
 import scss from "./Footer.module.scss";
 import { BsRocketFill } from "react-icons/bs";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { IoDocumentText } from "react-icons/io5";
 import { SiGmail } from "react-icons/si";
+import { Bounce } from "react-awesome-reveal";
 
 const Footer = () => {
   return (
@@ -14,12 +16,14 @@ const Footer = () => {
           Interessado em trabalhar juntos? <br />
           Seria ótimo conversarmos.
         </p>
-        <a href="/">
-          <span>
-            <BsRocketFill />
-          </span>
-          Vamos fazer isso
-        </a>
+        <Bounce triggerOnce>
+          <a href="/" className={scss.contact}>
+            <span>
+              <BsRocketFill />
+            </span>
+            Vamos fazer isso
+          </a>
+        </Bounce>
       </div>
       <div className={scss.container}>
         <h1>Em constante aprendizado. Um dia de cada vez.</h1>

@@ -35,26 +35,26 @@
     line-height: 150%;
     text-align: center;
   }
-  a {
-    font-size: clamp(1rem, 0.9143rem + 0.4286vw, 1.3rem);
-    padding: 1em 2em;
-    border: 1px solid #5be9b9;
-    color: white;
-    background-color: transparent;
-    border-radius: 90px;
-    transition: all 0.2s;
-    cursor: pointer;
-    font-weight: 700;
+}
 
-    &:hover {
-      background-color: #5be9b9;
-      color: #141c3a;
-      transform: scale(1.1);
-    }
+.contact {
+  font-size: clamp(1rem, 0.9143rem + 0.4286vw, 1.3rem);
+  padding: 1em 2em;
+  border: 1px solid #5be9b9;
+  color: white;
+  background-color: transparent;
+  border-radius: 90px;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-weight: 700;
 
-    span {
-      margin-right: 8px;
-    }
+  &:hover {
+    background-color: #5be9b9;
+    color: #141c3a;
+  }
+
+  span {
+    margin-right: 8px;
   }
 }
 

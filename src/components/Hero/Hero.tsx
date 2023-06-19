@@ -1,7 +1,9 @@
+"use client";
 import React from "react";
 import scss from "./Hero.module.scss";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { IoDocumentText } from "react-icons/io5";
+import { Bounce } from "react-awesome-reveal";
 
 const Hero = () => {
   return (
@@ -14,23 +16,25 @@ const Hero = () => {
         </div>
         <article>
           <h1>REACT</h1>
-          <ul className={scss.socials}>
-            <li>
-              <a href="/">
-                <BsLinkedin />
-              </a>
-            </li>
-            <li>
-              <a href="/">
-                <BsGithub />
-              </a>
-            </li>
-            <li>
-              <a href="/">
-                <IoDocumentText />
-              </a>
-            </li>
-          </ul>
+          <Bounce cascade>
+            <ul className={scss.socials}>
+              <li>
+                <a href="/">
+                  <BsLinkedin />
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <BsGithub />
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <IoDocumentText />
+                </a>
+              </li>
+            </ul>
+          </Bounce>
         </article>
         <article>
           <h1>DEVELOPER</h1>
