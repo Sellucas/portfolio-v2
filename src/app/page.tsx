@@ -13,7 +13,7 @@ const boxDataCard = [
     stack: "NextJS Typescript Sass MUI chartJS Vercel",
     github: "/",
     link: "/",
-    img: "/static/mockup.png",
+    img: "/static/spiceroute-project.png",
     alt: "QuickView Dashboard",
   },
   {
@@ -24,7 +24,7 @@ const boxDataCard = [
     stack: "React.js Redux ReactRouterDom Sass Vercel",
     github: "/",
     link: "/",
-    img: "/static/mockup.png",
+    img: "/static/spiceroute-project.png",
     alt: "QuickView Dashboard",
   },
   {
@@ -35,7 +35,7 @@ const boxDataCard = [
     stack: "React.js Tailwind Material Tailwind React-reveal Vercel",
     github: "/",
     link: "/",
-    img: "/static/mockup.png",
+    img: "/static/spiceroute-project.png",
     alt: "QuickView Dashboard",
   },
 ];

@@ -34,13 +34,11 @@ const Projects: React.FC<ProjectProps> = ({ boxDataCard }) => {
         {boxDataCard.map((box) => (
           <article
             key={box.id}
-            className={`${scss[box.className]}  ${scss.project}`}
+            className={`${scss.project} ${scss[box.className]}`}
           >
             <Slide triggerOnce>
-              <div className={scss.image}>
-                <a href="/" target="_blank">
-                  <Image width={550} height={450} src={box.img} alt={box.alt} />
-                </a>
+              <div className={scss.imageBox}>
+                <Image fill src={box.img} alt={box.alt} />
               </div>
             </Slide>
             <div className={scss.info}>
@@ -49,6 +47,7 @@ const Projects: React.FC<ProjectProps> = ({ boxDataCard }) => {
                 <h1>{box.title}</h1>
                 <p className={scss.description}>{box.text}</p>
                 <p className={scss.stack}>{box.stack}</p>
+                <hr />
                 <ul className={scss.links}>
                   <li>
                     <a href={box.github} target="_blank">
