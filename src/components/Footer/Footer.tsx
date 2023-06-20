@@ -16,7 +16,7 @@ const Footer = () => {
           Interessado em trabalhar juntos? <br />
           Seria ótimo conversarmos.
         </p>
-        <Bounce triggerOnce>
+        <Bounce>
           <a href="/" className={scss.contact}>
             <span>
               <BsRocketFill />
