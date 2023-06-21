@@ -13,6 +13,7 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 interface boxDataCard {
   id: string;
   title: string;
+  status: string;
   text: string;
   stack: string;
   github: string;
@@ -44,7 +45,10 @@ const Projects: React.FC<ProjectProps> = ({ boxDataCard }) => {
             <div className={scss.info}>
               <h2 className={righteous.className}>{box.id}</h2>
               <Slide triggerOnce>
-                <h1>{box.title}</h1>
+                <div className={scss.head}>
+                  <h1>{box.title}</h1>
+                  <span>{box.status}</span>
+                </div>
                 <p className={scss.description}>{box.text}</p>
                 <p className={scss.stack}>{box.stack}</p>
                 <hr />
