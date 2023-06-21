@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Projects from "@/components/Projects/Projects";
 import About from "@/components/About/About";
 import Footer from "@/components/Footer/Footer";
+import ScrollToTop from "@/components/utils/ScrollTop/ScrollTop";
 
 const boxDataCard = [
   {
@@ -47,6 +48,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Hero />
+      <ScrollToTop />
       <Projects boxDataCard={boxDataCard} />
       <About />
       <Footer />
