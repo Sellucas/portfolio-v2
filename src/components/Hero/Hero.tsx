@@ -19,17 +19,23 @@ const Hero = () => {
           <Bounce cascade>
             <ul className={scss.socials}>
               <li>
-                <a href="/">
+                <a
+                  href="https://www.linkedin.com/in/lucas-sell-machado/"
+                  target="_blank"
+                >
                   <BsLinkedin />
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="https://github.com/Sellucas/" target="_blank">
                   <BsGithub />
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a
+                  href="https://drive.google.com/file/d/10MEO5mKclhvQDge_RcVsQPM_qAYf541H/view?usp=sharing"
+                  target="_blank"
+                >
                   <IoDocumentText />
                 </a>
               </li>
