@@ -4,6 +4,7 @@ import scss from "./Projects.module.scss";
 import Marquee from "@/components/utils/TitleDivider";
 import { AiOutlineGithub } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
+import { SlMagnifierAdd } from "react-icons/sl";
 import { Righteous } from "next/font/google";
 import Image from "next/image";
 import { Slide } from "react-awesome-reveal";
@@ -68,6 +69,18 @@ const Projects: React.FC<ProjectProps> = ({ boxDataCard }) => {
             </div>
           </article>
         ))}
+        <div>
+          <a
+            href="https://github.com/Sellucas/"
+            target="_blank"
+            className={scss.seeMore}
+          >
+            <span>
+              <SlMagnifierAdd />
+            </span>
+            VER MAIS
+          </a>
+        </div>
       </div>
     </section>
   );

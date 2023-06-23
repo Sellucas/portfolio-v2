@@ -11,6 +11,7 @@
   align-items: center;
   margin-top: 12rem;
   color: #2e2e2e;
+  padding-bottom: 2rem;
 }
 
 .project {
@@ -157,5 +158,24 @@
     margin-left: 1rem;
     color: rgb(178, 178, 178);
     font-weight: 700;
+  }
+}
+
+.seeMore {
+  font-size: clamp(1rem, 0.9143rem + 0.4286vw, 1.3rem);
+  padding: 1em 2em;
+  border: 2px solid #141c3a;
+  color: #141c3a;
+  background-color: transparent;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-weight: 600;
+
+  &:hover {
+    background-color: #141c3a;
+    color: white;
+  }
+  span {
+    margin-right: 8px;
   }
 }

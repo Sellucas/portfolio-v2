@@ -42,7 +42,7 @@ const About = () => {
             para trazer ideias inovadoras à vida. Sou motivado e entusiasmado
             com o desenvolvimento web, sempre em busca de aprendizado e
             crescimento contínuos. Atualmente, estou me aprofundando nos estudos
-            de <span>Typescript e Jest</span>.
+            de <span>Typescript, NodeJs e Jest</span>.
           </p>
         </div>
         <div className={scss.stack}>

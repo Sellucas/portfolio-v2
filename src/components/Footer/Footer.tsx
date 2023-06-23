@@ -17,12 +17,14 @@ const Footer = () => {
           Seria ótimo conversarmos.
         </p>
         <Bounce>
-          <a href="/" className={scss.contact}>
-            <span>
-              <BsRocketFill />
-            </span>
-            Vamos fazer isso
-          </a>
+          <div>
+            <a href="/" className={scss.contact}>
+              <span>
+                <BsRocketFill />
+              </span>
+              Vamos fazer isso
+            </a>
+          </div>
         </Bounce>
       </div>
       <div className={scss.container}>
