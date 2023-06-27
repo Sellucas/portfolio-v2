@@ -16,12 +16,12 @@ export default function RootLayout({
     <>
       <Head>
         <title>Lucas Sell Machado | Frontend Developer</title>
-        <meta name="description" content="Data Dashboard" />
+        <meta name="description" content="Frontend Developer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <html lang="en">
+      <html lang="pt-br">
         <body className={poppins.className}>{children}</body>
       </html>
     </>
