@@ -152,12 +152,22 @@
 
 .head {
   display: flex;
+  flex-direction: row;
 
-  span {
-    margin-top: 10rem;
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+  }
+
+  p {
+    margin-top: 9rem;
     margin-left: 1rem;
     color: rgb(178, 178, 178);
     font-weight: 700;
+
+    @media screen and (max-width: 500px) {
+      margin-top: 0;
+      margin-left: 0;
+    }
   }
 }
 

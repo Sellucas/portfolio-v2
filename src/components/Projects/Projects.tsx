@@ -48,7 +48,7 @@ const Projects: React.FC<ProjectProps> = ({ boxDataCard }) => {
               <Slide triggerOnce>
                 <div className={scss.head}>
                   <h1>{box.title}</h1>
-                  <span>{box.status}</span>
+                  <p>{box.status}</p>
                 </div>
                 <p className={scss.description}>{box.text}</p>
                 <p className={scss.stack}>{box.stack}</p>

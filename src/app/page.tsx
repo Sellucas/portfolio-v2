@@ -36,7 +36,7 @@ const boxDataCard = [
     title: "SpiceRoute",
     status: "MARÇO 2023",
     text: "SpiceRoute é um projeto de restaurante fictício criado para fins de demonstração. O objetivo do projeto é mostrar a criação de um site para um restaurante, onde os clientes podem consultar o cardápio, fazer reservas e entrar em contato com o restaurante.",
-    stack: "React.js Tailwind Material Tailwind React-reveal Vercel",
+    stack: "React.js TailwindMaterial Tailwind React-reveal Vercel",
     github: "/",
     link: "/",
     img: "/static/spiceroute-project.png",
