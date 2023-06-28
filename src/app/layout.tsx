@@ -1,6 +1,10 @@
-import "./globals.css";
+import React from "react";
 import { Poppins } from "next/font/google";
-import Head from "next/head";
+import "./globals.css";
+
+export const metadata = {
+  title: "Sellucas | Frontend Developer",
+};
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -13,17 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
-      <Head>
-        <title>Lucas Sell Machado | Frontend Developer</title>
-        <meta name="description" content="Frontend Developer" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <html lang="pt-br">
-        <body className={poppins.className}>{children}</body>
-      </html>
-    </>
+    <html className={poppins.className} lang="pt-br">
+      <body>{children}</body>
+    </html>
   );
 }
