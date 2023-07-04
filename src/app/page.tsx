@@ -27,7 +27,7 @@ const boxDataCard = [
     stack: "Next.js Typescript Tailwind Vercel React-awesome-reveal",
     github: "/",
     link: "/",
-    img: "/static/cardFlex-project.png",
+    img: "/static/cardflex-project.png",
     alt: "CardFlex",
   },
   {
